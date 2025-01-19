@@ -1,0 +1,3142 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-bs-theme="light" data-color-theme="Blue_Theme" data-layout="vertical">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon icon-->
+  <link rel="shortcut icon" type="image/png" href="assets/images/logos/logo-icon.svg" />
+
+  <!-- Core Css -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <title>AdminPro Template by Jassa</title>
+</head>
+
+<body>
+  <div class="toast toast-onload align-items-center text-bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-body hstack align-items-start gap-6">
+      <i class="ti ti-alert-circle fs-6"></i>
+      <div>
+        <h5 class="text-white fs-3 mb-1">Welcome to AdminPro</h5>
+        <h6 class="text-white fs-2 mb-0">Easy to costomize the Template!!!</h6>
+      </div>
+      <button type="button" class="btn-close btn-close-white fs-2 m-0 ms-auto shadow-none" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+  </div>
+  <!-- Preloader -->
+  <div class="preloader">
+    <img src="assets/images/logos/logo-icon.svg" alt="loader" class="lds-ripple img-fluid" />
+  </div>
+  <div id="main-wrapper">
+    <!-- Sidebar Start -->
+    <aside class="left-sidebar with-vertical">
+      <div>
+        <!-- ---------------------------------- -->
+        <!-- Start Vertical Layout Sidebar -->
+        <!-- ---------------------------------- -->
+        <!-- Sidebar scroll-->
+        <nav class="sidebar-nav scroll-sidebar" data-simplebar>
+          <ul id="sidebarnav" class="px-2">
+            <!-----------Profile------------------>
+            <li class="sidebar-item pt-3 pb-2 sidebar-profile">
+              <a class="sidebar-link has-arrow opacity-100 gap-2" href="javascript:void(0)" aria-expanded="false">
+                <span class="d-flex">
+                  <img src="assets/images/profile/user-1.jpg" class="rounded-3" width="30" alt="user" />
+                </span>
+                <span class="hide-menu">Tania Andrew</span>
+              </a>
+              <ul aria-expanded="false" class="collapse first-level">
+                <li class="sidebar-item">
+                  <a href="javascript:void(0)" class="sidebar-link">
+                    <div class="round-16 d-flex align-items-center justify-content-center">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                    </div>
+                    <span class="hide-menu">My Profile</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a href="javascript:void(0)" class="sidebar-link">
+                    <div class="round-16 d-flex align-items-center justify-content-center">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                    </div>
+                    <span class="hide-menu">My Balance</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a href="javascript:void(0)" class="sidebar-link">
+                    <div class="round-16 d-flex align-items-center justify-content-center">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                    </div>
+                    <span class="hide-menu">Inbox</span>
+                  </a>
+                </li>
+                <li class="sidebar-item">
+                  <a href="javascript:void(0)" class="sidebar-link">
+                    <div class="round-16 d-flex align-items-center justify-content-center">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                    </div>
+                    <span class="hide-menu">Logout</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- ---------------------------------- -->
+            <!-- Home -->
+            <!-- ---------------------------------- -->
+            <li class="nav-small-cap">
+              <iconify-icon icon="solar:menu-dots-bold" class="nav-small-cap-icon fs-4"></iconify-icon>
+              <span class="hide-menu">DASHBOAED</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link waves-effect waves-dark" href="index.html" id="get-url" aria-expanded="false"><iconify-icon icon="solar:atom-line-duotone"></iconify-icon>
+                <span class="hide-menu">Minimal</span>
+              </a>
+            </li>
+            <!-- ---------------------------------- -->
+            <!-- AUTH -->
+            <!-- ---------------------------------- -->
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">AUTH</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link sidebar-link" href="authentication-error.html" aria-expanded="false">
+                <span class="rounded-3">
+                  <iconify-icon icon="solar:shield-warning-line-duotone"></iconify-icon>
+                </span>
+                <span class="hide-menu">Error</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link has-arrow" href="javascript:void(0)" aria-expanded="false">
+                <span class="d-flex">
+                  <iconify-icon icon="solar:lock-keyhole-minimalistic-line-duotone"></iconify-icon>
+                </span>
+                <span class="hide-menu">Login</span>
+              </a>
+              <ul aria-expanded="false" class="collapse first-level">
+                <li class="sidebar-item">
+                  <a href="authentication-login.html" class="sidebar-link">
+                    <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                    <span class="hide-menu">Side Login</span>
+                  </a>
+                </li>
+             
+              </ul>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link has-arrow" href="javascript:void(0)" aria-expanded="false">
+                <span class="d-flex">
+                  <iconify-icon icon="solar:user-plus-rounded-line-duotone"></iconify-icon>
+                </span>
+                <span class="hide-menu">Register</span>
+              </a>
+              <ul aria-expanded="false" class="collapse first-level">
+                <li class="sidebar-item">
+                  <a href="authentication-register.html" class="sidebar-link">
+                    <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                    <span class="hide-menu">Side Register</span>
+                  </a>
+                </li>
+               
+              </ul>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link has-arrow" href="javascript:void(0)" aria-expanded="false">
+                <span class="d-flex">
+                  <iconify-icon icon="solar:password-minimalistic-input-line-duotone"></iconify-icon>
+                </span>
+                <span class="hide-menu">Forgot Password</span>
+              </a>
+              <ul aria-expanded="false" class="collapse first-level">
+                <li class="sidebar-item">
+                  <a href="authentication-forgot-password.html" class="sidebar-link">
+                    <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                    <span class="hide-menu">Side Forgot Password</span>
+                  </a>
+                </li>
+               
+              </ul>
+            </li>
+           
+            <li class="sidebar-item">
+              <a class="sidebar-link sidebar-link" href="authentication-maintenance.html" aria-expanded="false">
+                <span class="rounded-3">
+                  <iconify-icon icon="solar:calendar-minimalistic-line-duotone"></iconify-icon>
+                </span>
+                <span class="hide-menu">Maintenance</span>
+              </a>
+            </li>
+         
+
+            
+          </ul>
+        </nav>
+
+        <!-- End Sidebar scroll-->
+      </div>
+    </aside>
+    <!--  Sidebar End -->
+    <div class="page-wrapper">
+      <!--  Header Start -->
+      <header class="topbar card rounded-0 border-0">
+        <div class="with-vertical"><!-- ---------------------------------- -->
+          <!-- Start Vertical Layout Header -->
+          <!-- ---------------------------------- -->
+          <nav class="navbar navbar-expand-lg px-lg-0 px-3 py-0">
+            <div class="d-none d-lg-block">
+              <div class="brand-logo d-flex align-items-center justify-content-between ps-lg-3">
+                <a href="../main/index.html" class="text-nowrap logo-img d-flex align-items-center gap-1">
+                  <b class="logo-icon">
+                    <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                    <!-- Dark Logo icon -->
+                    <img src="assets/images/logos/logo-icon.svg" alt="homepage" class="dark-logo" />
+                    <!-- Light Logo icon -->
+                    <img src="assets/images/logos/logo-light-icon.svg" alt="homepage" class="light-logo" />
+                  </b>
+                  <!--End Logo icon -->
+                  <!-- Logo text -->
+                  <span class="logo-text">
+                    <!-- dark Logo text -->
+                    <img src="assets/images/logos/logo-text.svg" alt="homepage" class="dark-logo ps-2" />
+                    <!-- Light Logo text -->
+                    <img src="assets/images/logos/logo-light-text.svg" class="light-logo ps-2" alt="homepage" />
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <ul class="navbar-nav align-items-center ps-xl-3">
+              <li class="nav-item nav-icon-hover-bg rounded-circle">
+                <a class="nav-link sidebartoggler" id="headerCollapse" href="javascript:void(0)">
+                  <iconify-icon icon="solar:hamburger-menu-line-duotone"></iconify-icon>
+                </a>
+              </li>
+              <li class="nav-item nav-icon-hover-bg rounded-circle d-none d-lg-flex search-box">
+                <a class="nav-link d-none d-md-flex waves-effect waves-dark" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <iconify-icon icon="solar:magnifer-linear"></iconify-icon>
+                </a>
+              </li>
+            </ul>
+
+            <div class="d-block d-lg-none">
+              <div class="brand-logo d-flex align-items-center justify-content-between ps-lg-3">
+                <a href="../main/index.html" class="text-nowrap logo-img d-flex align-items-center gap-1">
+                  <b class="logo-icon">
+                    <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                    <!-- Dark Logo icon -->
+                    <img src="assets/images/logos/logo-icon.svg" alt="homepage" class="dark-logo" />
+                    <!-- Light Logo icon -->
+                    <img src="assets/images/logos/logo-light-icon.svg" alt="homepage" class="light-logo" />
+                  </b>
+                  <!--End Logo icon -->
+                  <!-- Logo text -->
+                  <span class="logo-text">
+                    <!-- dark Logo text -->
+                    <img src="assets/images/logos/logo-text.svg" alt="homepage" class="dark-logo ps-2" />
+                    <!-- Light Logo text -->
+                    <img src="assets/images/logos/logo-light-text.svg" class="light-logo ps-2" alt="homepage" />
+                  </span>
+                </a>
+              </div>
+            </div>
+            <a class="navbar-toggler nav-icon-hover-bg rounded-circle p-0 border-0" href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="p-2">
+                <i class="ti ti-dots fs-7"></i>
+              </span>
+            </a>
+            <div class="collapse navbar-collapse justify-content-end pe-2" id="navbarNav">
+              <div class="d-flex align-items-center justify-content-between">
+                <ul class="navbar-nav flex-row mx-auto align-items-center justify-content-center">
+                  <li class="nav-item nav-icon-hover-bg rounded-circle">
+                    <a class="nav-link moon dark-layout" href="javascript:void(0)">
+                      <iconify-icon icon="solar:moon-line-duotone" class="moon"></iconify-icon>
+                    </a>
+                    <a class="nav-link sun light-layout" href="javascript:void(0)">
+                      <iconify-icon icon="solar:sun-2-line-duotone" class="sun"></iconify-icon>
+                    </a>
+                  </li>
+                  <!-- ------------------------------- -->
+                  <!-- start notification Dropdown -->
+                  <!-- ------------------------------- -->
+                  <li class="nav-item dropdown nav-icon-hover-bg rounded-circle">
+                    <a class="nav-link" href="javascript:void(0)" id="drop2" aria-expanded="false">
+                      <iconify-icon icon="solar:bell-bing-line-duotone"></iconify-icon>
+                      <div class="notify">
+                        <span class="heartbit"></span>
+                        <span class="point"></span>
+                      </div>
+                    </a>
+                    <div class="dropdown-menu pt-0 content-dd dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
+                      <div class="d-flex border-bottom align-items-center justify-content-between py-3 px-4">
+                        <div class="mb-0 fs-4 fw-medium text-dark">Notifications</div>
+                      </div>
+                      <div class="message-body" data-simplebar>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="flex-shrink-0 bg-danger-subtle rounded-circle round d-flex align-items-center justify-content-center fs-6 text-danger">
+                            <iconify-icon icon="solar:widget-3-line-duotone"></iconify-icon>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Luanch Admin</h6>
+                              <span class="fs-2 text-nowrap d-block">9:30 AM</span>
+                            </div>
+                            <span class="fs-2 d-block text-truncate text-truncate">Just see the my new admin!</span>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="flex-shrink-0 bg-success-subtle rounded-circle round d-flex align-items-center justify-content-center fs-6 text-success">
+                            <iconify-icon icon="solar:calendar-mark-line-duotone"></iconify-icon>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Event today</h6>
+                              <span class="fs-2 text-nowrap d-block">9:10 AM</span>
+                            </div>
+
+                            <span class="fs-2 d-block text-truncate text-truncate">Just a reminder that you have event</span>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="flex-shrink-0 bg-primary-subtle rounded-circle round d-flex align-items-center justify-content-center fs-6 text-primary">
+                            <iconify-icon icon="solar:settings-minimalistic-line-duotone"></iconify-icon>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Settings</h6>
+                              <span class="fs-2 text-nowrap d-block">9:08 AM</span>
+                            </div>
+                            <span class="fs-2 d-block text-truncate text-truncate">You can customize this template as you want</span>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="flex-shrink-0 bg-warning-subtle rounded-circle round d-flex align-items-center justify-content-center fs-6 text-warning">
+                            <iconify-icon icon="solar:link-circle-line-duotone"></iconify-icon>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Luanch Admin</h6>
+                              <span class="fs-2 text-nowrap d-block">9:30 AM</span>
+                            </div>
+                            <span class="fs-2 d-block text-truncate text-truncate">Just see the my new admin!</span>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="flex-shrink-0 bg-success-subtle rounded-circle round d-flex align-items-center justify-content-center">
+                            <i data-feather="calendar" class="feather-sm fill-white text-success"></i>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Event today</h6>
+                              <span class="fs-2 text-nowrap d-block">9:10 AM</span>
+                            </div>
+                            <span class="fs-2 d-block text-truncate text-truncate">Just a reminder that you have event</span>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="flex-shrink-0 bg-primary-subtle rounded-circle round d-flex align-items-center justify-content-center">
+                            <i data-feather="settings" class="feather-sm fill-white text-primary"></i>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Settings</h6>
+                              <span class="fs-2 text-nowrap d-block">9:08 AM</span>
+                            </div>
+                            <span class="fs-2 d-block text-truncate text-truncate">You can customize this template as you want</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div>
+                        <a class="d-flex align-items-center pt-3 pb-2 justify-content-center" href="javascript:void(0);">
+                          <span class="fw-semibold">Check all notifications</span>
+                          <i data-feather="chevron-right" class="feather-sm"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="nav-item dropdown nav-icon-hover-bg rounded-circle">
+                    <a class="nav-link" href="javascript:void(0)" id="drop2" aria-expanded="false">
+                      <iconify-icon icon="solar:inbox-line-line-duotone"></iconify-icon>
+                      <div class="notify">
+                        <span class="heartbit"></span>
+                        <span class="point"></span>
+                      </div>
+                    </a>
+                    <div class="dropdown-menu pt-0 content-dd dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
+                      <div class="d-flex border-bottom align-items-center justify-content-between py-3 px-4">
+                        <h5 class="mb-0 fs-4 fw-medium text-dark">You have 4 new messages</h5>
+                      </div>
+                      <div class="message-body" data-simplebar>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="user-img position-relative d-inline-block">
+                            <img src="assets/images/profile/user-8.jpg" alt="user" class="rounded-circle w-100 round-40" />
+                            <span class="profile-status bg-success position-absolute rounded-circle"></span>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Tania Andrew</h6>
+                              <span class="fs-2 text-nowrap d-block">9:30 AM</span>
+                            </div>
+                            <span class="fs-2 d-block text-truncate">Just see the my new admin!</span>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="user-img position-relative d-inline-block">
+                            <img src="assets/images/profile/user-2.jpg" alt="user" class="rounded-circle w-100 round-40" />
+                            <span class="profile-status bg-success position-absolute rounded-circle"></span>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Bianca Anderson</h6>
+                              <span class="fs-2 text-nowrap d-block">9:10 AM</span>
+                            </div>
+
+                            <span class="fs-2 d-block text-truncate">Just a reminder that you have event</span>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="user-img position-relative d-inline-block">
+                            <img src="assets/images/profile/user-3.jpg" alt="user" class="rounded-circle w-100 round-40" />
+                            <span class="profile-status bg-success position-absolute rounded-circle"></span>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Andrew Johnson</h6>
+                              <span class="fs-2 text-nowrap d-block">9:08 AM</span>
+                            </div>
+                            <span class="fs-2 d-block text-truncate">You can customize this template as you want</span>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="user-img position-relative d-inline-block">
+                            <img src="assets/images/profile/user-4.jpg" alt="user" class="rounded-circle w-100 round-40" />
+                            <span class="profile-status bg-success position-absolute rounded-circle"></span>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Mark Strokes</h6>
+                              <span class="fs-2 text-nowrap d-block">9:30 AM</span>
+                            </div>
+                            <span class="fs-2 d-block text-truncate">Just see the my new admin!</span>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="user-img position-relative d-inline-block">
+                            <img src="assets/images/profile/user-5.jpg" alt="user" class="rounded-circle w-100 round-40" />
+                            <span class="profile-status bg-success position-absolute rounded-circle"></span>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Mark, Stoinus & Rishvi..</h6>
+                              <span class="fs-2 text-nowrap d-block">9:10 AM</span>
+                            </div>
+                            <span class="fs-2 d-block text-truncate">Just a reminder that you have event</span>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="user-img position-relative d-inline-block">
+                            <img src="assets/images/profile/user-6.jpg" alt="user" class="rounded-circle w-100 round-40" />
+                            <span class="profile-status bg-success position-absolute rounded-circle"></span>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Settings</h6>
+                              <span class="fs-2 text-nowrap d-block">9:08 AM</span>
+                            </div>
+                            <span class="fs-2 d-block text-truncate">You can customize this template as you want</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div>
+                        <a class="d-flex align-items-center pt-3 pb-2 justify-content-center" href="javascript:void(0);">
+                          <span class="fw-semibold">See all e-Mails</span>
+                          <i data-feather="chevron-right" class="feather-sm"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="nav-item dropdown mega-dropdown nav-icon-hover-bg rounded-circle">
+                    <a class="nav-link" id="drop2" href="javascript:void(0)" aria-haspopup="true" aria-expanded="false">
+                      <iconify-icon icon="solar:widget-3-line-duotone"></iconify-icon>
+                    </a>
+                    <div class="dropdown-menu rounded-0 dropdown-menu-animate-up mt-0" aria-labelledby="drop2">
+                      <div class="mega-dropdown-menu row">
+                        <div class="col-lg-3 col-xl-2 mb-4">
+                          <h4 class="mb-3 fs-5 ">Carousel</h4>
+                          <!-- CAROUSEL -->
+                          <div id="carouselExampleControls" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img class="d-block img-fluid" src="assets/images/blog/blog-img1.jpg" alt="First slide" />
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block img-fluid" src="assets/images/blog/blog-img2.jpg" alt="Second slide" />
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block img-fluid" src="assets/images/blog/blog-img3.jpg" alt="Third slide" />
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </a>
+                          </div>
+                          <!-- End CAROUSEL -->
+                        </div>
+                        <div class="col-lg-3 mb-4">
+                          <h4 class="mb-3 fs-5">Accordion</h4>
+                          <!-- Accordian -->
+                          <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                  Accordion Item #1
+                                </button>
+                              </h2>
+                              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                  Anim pariatur cliche reprehenderit, enim eiusmod
+                                  high life accusamus terry richardson ad squid.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                  Accordion Item #2
+                                </button>
+                              </h2>
+                              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                  Anim pariatur cliche reprehenderit, enim eiusmod
+                                  high life accusamus terry richardson ad squid.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                  Accordion Item #3
+                                </button>
+                              </h2>
+                              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                  Anim pariatur cliche reprehenderit, enim eiusmod
+                                  high life accusamus terry richardson ad squid.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 mb-4">
+                          <h4 class="mb-3 fs-5">Contact Us</h4>
+                          <!-- Contact -->
+                          <form>
+                            <div class="mb-3 form-floating">
+                              <input type="text" class="form-control" id="exampleInputname1" placeholder="Enter Name" />
+                              <label>Enter Name</label>
+                            </div>
+                            <div class="mb-3 form-floating">
+                              <input type="email" class="form-control" placeholder="Enter email" />
+                              <label>Enter Email address</label>
+                            </div>
+                            <div class="mb-3 form-floating">
+                              <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Message"></textarea>
+                              <label>Enter Message</label>
+                            </div>
+                            <button type="submit" class="btn px-4 rounded-pill btn-primary">
+                              Submit
+                            </button>
+                          </form>
+                        </div>
+                        <div class="col-lg-3 col-xlg-4 mb-4">
+                          <h4 class="mb-3 fs-5">List style</h4>
+                          <ol class="list-group list-group-numbered">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">Subheading</div>
+                                <div class=" d-block text-body-secondary text-truncate text-truncate">Content for list item</div>
+                              </div>
+                              <span class="badge bg-primary rounded-pill">14</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">Subheading</div>
+                                <div class=" d-block text-body-secondary text-truncate text-truncate">Content for list item</div>
+                              </div>
+                              <span class="badge bg-primary rounded-pill">14</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">Subheading</div>
+                                <div class=" d-block text-body-secondary text-truncate text-truncate">Content for list item</div>
+                              </div>
+                              <span class="badge bg-primary rounded-pill">14</span>
+                            </li>
+                          </ol>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <!-- ------------------------------- -->
+                  <!-- end notification Dropdown -->
+                  <!-- ------------------------------- -->
+                  <!-- ------------------------------- -->
+                  <!-- start language Dropdown -->
+                  <!-- ------------------------------- -->
+                  <li class="nav-item dropdown nav-icon-hover-bg rounded-circle">
+                    <a class="nav-link" href="javascript:void(0)" id="drop2" aria-expanded="false">
+                      <img src="assets/images/svgs/icon-flag-en.svg" alt="adminpro-img" width="20px" height="20px" class="round-20" />
+                    </a>
+                    <div class="dropdown-menu pt-0 dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
+                      <div class="message-body">
+                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 py-2 px-4 dropdown-item">
+                          <div class="position-relative">
+                            <img src="assets/images/svgs/icon-flag-en.svg" alt="adminpro-img" width="20px" height="20px" class="round-20" />
+                          </div>
+                          <p class="mb-0 fs-3">English</p>
+                        </a>
+                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 py-2 px-4 dropdown-item">
+                          <div class="position-relative">
+                            <img src="assets/images/svgs/icon-flag-cn.svg" alt="adminpro-img" width="20px" height="20px" class="round-20" />
+                          </div>
+                          <p class="mb-0 fs-3">Chinese</p>
+                        </a>
+                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 py-2 px-4 dropdown-item">
+                          <div class="position-relative">
+                            <img src="assets/images/svgs/icon-flag-fr.svg" alt="adminpro-img" width="20px" height="20px" class="round-20" />
+                          </div>
+                          <p class="mb-0 fs-3">French</p>
+                        </a>
+                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 py-2 px-4 dropdown-item">
+                          <div class="position-relative">
+                            <img src="assets/images/svgs/icon-flag-sa.svg" alt="adminpro-img" width="20px" height="20px" class="round-20" />
+                          </div>
+                          <p class="mb-0 fs-3">Arabic</p>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- ------------------------------- -->
+                  <!-- end language Dropdown -->
+                  <!-- ------------------------------- -->
+
+                  <!-- ------------------------------- -->
+                  <!-- start profile Dropdown -->
+                  <!-- ------------------------------- -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="javascript:void(0)" id="drop2" aria-expanded="false">
+                      <img src="assets/images/profile/user-1.jpg" alt="user" width="30" class="profile-pic rounded-circle" />
+                    </a>
+                    <div class="dropdown-menu pt-0 content-dd overflow-hidden pt-0 dropdown-menu-end user-dd animated flipInY" aria-labelledby="drop2">
+                      <div class="profile-dropdown position-relative" data-simplebar>
+                        <div class="py-3 px-7 pb-0">
+                          <h5 class="mb-0 fs-5 fw-semibold">User Profile</h5>
+                        </div>
+                        <div class="d-flex align-items-center py-9 mx-7 border-bottom">
+                          <img src="assets/images/profile/user-1.jpg" class="rounded-circle" width="80" height="80" alt="adminpro-img" />
+                          <div class="ms-3">
+                            <h5 class="mb-1 fs-4">Tania Andrew</h5>
+                            <span class="mb-1 d-block">Designer</span>
+                            <p class="mb-0 d-flex align-items-center gap-2">
+                              <i class="ti ti-mail fs-4"></i> Jassa@
+                            </p>
+                          </div>
+                        </div>
+                        <div class="message-body">
+                          <a href="../main/page-user-profile.html" class="py-8 px-7 mt-8 d-flex align-items-center">
+                            <span class="d-flex align-items-center justify-content-center bg-primary-subtle rounded p-6 fs-7 text-primary">
+                              <iconify-icon icon="solar:user-circle-line-duotone"></iconify-icon>
+                            </span>
+                            <div class="w-75 d-inline-block v-middle ps-3">
+                              <h6 class="mb-1 fs-3 fw-semibold lh-base">My Profile</h6>
+                              <span class="fs-2 d-block text-body-secondary">Account Settings</span>
+                            </div>
+                          </a>
+                          <a href="../main/app-email.html" class="py-8 px-7 d-flex align-items-center">
+                            <span class="d-flex align-items-center justify-content-center bg-primary-subtle rounded p-6 fs-7 text-primary">
+                              <iconify-icon icon="solar:inbox-line-line-duotone"></iconify-icon>
+                            </span>
+                            <div class="w-75 d-inline-block v-middle ps-3">
+                              <h6 class="mb-1 fs-3 fw-semibold lh-base">My Inbox</h6>
+                              <span class="fs-2 d-block text-body-secondary">Messages & Emails</span>
+                            </div>
+                          </a>
+                          <a href="../main/app-notes.html" class="py-8 px-7 d-flex align-items-center">
+                            <span class="d-flex align-items-center justify-content-center bg-primary-subtle rounded p-6 fs-7 text-primary">
+                              <iconify-icon icon="solar:checklist-minimalistic-line-duotone"></iconify-icon>
+                            </span>
+                            <div class="w-75 d-inline-block v-middle ps-3">
+                              <h6 class="mb-1 fs-3 fw-semibold lh-base">My Task</h6>
+                              <span class="fs-2 d-block text-body-secondary">To-do and Daily Tasks</span>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="d-grid py-4 px-7 pt-8">
+                          <a href="../main/authentication-login.html" class="btn btn-primary">Log Out</a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <!-- ------------------------------- -->
+                  <!-- end profile Dropdown -->
+                  <!-- ------------------------------- -->
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- ---------------------------------- -->
+          <!-- End Vertical Layout Header -->
+          <!-- ---------------------------------- -->
+
+          <!-- ------------------------------- -->
+          <!-- apps Dropdown in Small screen -->
+          <!-- ------------------------------- -->
+        </div>
+        <div class="app-header with-horizontal">
+          <nav class="navbar navbar-expand-xl container-fluid p-0">
+            <ul class="navbar-nav align-items-center">
+              <li class="nav-item nav-icon-hover-bg rounded-circle d-flex d-xl-none">
+                <a class="nav-link sidebartoggler ms-n3" id="sidebarCollapse" href="javascript:void(0)">
+                  <iconify-icon icon="solar:hamburger-menu-line-duotone"></iconify-icon>
+                </a>
+              </li>
+              <li class="nav-item d-none d-xl-block">
+                <div class="brand-logo d-flex align-items-center justify-content-between ps-lg-3">
+                  <a href="../main/index.html" class="text-nowrap logo-img d-flex align-items-center gap-1">
+                    <b class="logo-icon">
+                      <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                      <!-- Dark Logo icon -->
+                      <img src="assets/images/logos/logo-icon.svg" alt="homepage" class="dark-logo" />
+                      <!-- Light Logo icon -->
+                      <img src="assets/images/logos/logo-light-icon.svg" alt="homepage" class="light-logo" />
+                    </b>
+                    <!--End Logo icon -->
+                    <!-- Logo text -->
+                    <span class="logo-text">
+                      <!-- dark Logo text -->
+                      <img src="assets/images/logos/logo-text.svg" alt="homepage" class="dark-logo ps-2" />
+                      <!-- Light Logo text -->
+                      <img src="assets/images/logos/logo-light-text.svg" class="light-logo ps-2" alt="homepage" />
+                    </span>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item nav-icon-hover-bg rounded-circle d-none d-lg-flex search-box">
+                <a class="nav-link d-none d-md-flex waves-effect waves-dark" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <iconify-icon icon="solar:magnifer-linear"></iconify-icon>
+                </a>
+              </li>
+            </ul>
+
+
+            <a class="navbar-toggler nav-icon-hover-bg rounded-circle p-0 border-0" href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="p-2">
+                <i class="ti ti-dots fs-7"></i>
+              </span>
+            </a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <div class="d-flex align-items-center justify-content-between">
+                <ul class="navbar-nav flex-row mx-auto align-items-center justify-content-center">
+                  <li class="nav-item nav-icon-hover-bg rounded-circle">
+                    <a class="nav-link moon dark-layout" href="javascript:void(0)">
+                      <iconify-icon icon="solar:moon-line-duotone" class="moon"></iconify-icon>
+                    </a>
+                    <a class="nav-link sun light-layout" href="javascript:void(0)">
+                      <iconify-icon icon="solar:sun-2-line-duotone" class="sun"></iconify-icon>
+                    </a>
+                  </li>
+                  <!-- ------------------------------- -->
+                  <!-- start notification Dropdown -->
+                  <!-- ------------------------------- -->
+                  <li class="nav-item dropdown nav-icon-hover-bg rounded-circle">
+                    <a class="nav-link" href="javascript:void(0)" id="drop2" aria-expanded="false">
+                      <iconify-icon icon="solar:bell-bing-line-duotone"></iconify-icon>
+                      <div class="notify">
+                        <span class="heartbit"></span>
+                        <span class="point"></span>
+                      </div>
+                    </a>
+                    <div class="dropdown-menu pt-0 content-dd dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
+                      <div class="d-flex border-bottom align-items-center justify-content-between py-3 px-4">
+                        <div class="mb-0 fs-4 fw-medium text-dark">Notifications</div>
+                      </div>
+                      <div class="message-body" data-simplebar>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="flex-shrink-0 bg-danger-subtle rounded-circle round d-flex align-items-center justify-content-center fs-6 text-danger">
+                            <iconify-icon icon="solar:widget-3-line-duotone"></iconify-icon>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Luanch Admin</h6>
+                              <span class="fs-2 text-nowrap d-block">9:30 AM</span>
+                            </div>
+                            <span class="fs-2 d-block text-truncate text-truncate">Just see the my new admin!</span>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="flex-shrink-0 bg-success-subtle rounded-circle round d-flex align-items-center justify-content-center fs-6 text-success">
+                            <iconify-icon icon="solar:calendar-mark-line-duotone"></iconify-icon>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Event today</h6>
+                              <span class="fs-2 text-nowrap d-block">9:10 AM</span>
+                            </div>
+
+                            <span class="fs-2 d-block text-truncate text-truncate">Just a reminder that you have event</span>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="flex-shrink-0 bg-primary-subtle rounded-circle round d-flex align-items-center justify-content-center fs-6 text-primary">
+                            <iconify-icon icon="solar:settings-minimalistic-line-duotone"></iconify-icon>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Settings</h6>
+                              <span class="fs-2 text-nowrap d-block">9:08 AM</span>
+                            </div>
+                            <span class="fs-2 d-block text-truncate text-truncate">You can customize this template as you want</span>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="flex-shrink-0 bg-warning-subtle rounded-circle round d-flex align-items-center justify-content-center fs-6 text-warning">
+                            <iconify-icon icon="solar:link-circle-line-duotone"></iconify-icon>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Luanch Admin</h6>
+                              <span class="fs-2 text-nowrap d-block">9:30 AM</span>
+                            </div>
+                            <span class="fs-2 d-block text-truncate text-truncate">Just see the my new admin!</span>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="flex-shrink-0 bg-success-subtle rounded-circle round d-flex align-items-center justify-content-center">
+                            <i data-feather="calendar" class="feather-sm fill-white text-success"></i>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Event today</h6>
+                              <span class="fs-2 text-nowrap d-block">9:10 AM</span>
+                            </div>
+                            <span class="fs-2 d-block text-truncate text-truncate">Just a reminder that you have event</span>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="flex-shrink-0 bg-primary-subtle rounded-circle round d-flex align-items-center justify-content-center">
+                            <i data-feather="settings" class="feather-sm fill-white text-primary"></i>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Settings</h6>
+                              <span class="fs-2 text-nowrap d-block">9:08 AM</span>
+                            </div>
+                            <span class="fs-2 d-block text-truncate text-truncate">You can customize this template as you want</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div>
+                        <a class="d-flex align-items-center pt-3 pb-2 justify-content-center" href="javascript:void(0);">
+                          <span class="fw-semibold">Check all notifications</span>
+                          <i data-feather="chevron-right" class="feather-sm"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="nav-item dropdown nav-icon-hover-bg rounded-circle">
+                    <a class="nav-link" href="javascript:void(0)" id="drop2" aria-expanded="false">
+                      <iconify-icon icon="solar:inbox-line-line-duotone"></iconify-icon>
+                      <div class="notify">
+                        <span class="heartbit"></span>
+                        <span class="point"></span>
+                      </div>
+                    </a>
+                    <div class="dropdown-menu pt-0 content-dd dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
+                      <div class="d-flex border-bottom align-items-center justify-content-between py-3 px-4">
+                        <h5 class="mb-0 fs-4 fw-medium text-dark">You have 4 new messages</h5>
+                      </div>
+                      <div class="message-body" data-simplebar>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="user-img position-relative d-inline-block">
+                            <img src="assets/images/profile/user-8.jpg" alt="user" class="rounded-circle w-100 round-40" />
+                            <span class="profile-status bg-success position-absolute rounded-circle"></span>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Tania Andrew</h6>
+                              <span class="fs-2 text-nowrap d-block">9:30 AM</span>
+                            </div>
+                            <span class="fs-2 d-block text-truncate">Just see the my new admin!</span>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="user-img position-relative d-inline-block">
+                            <img src="assets/images/profile/user-2.jpg" alt="user" class="rounded-circle w-100 round-40" />
+                            <span class="profile-status bg-success position-absolute rounded-circle"></span>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Bianca Anderson</h6>
+                              <span class="fs-2 text-nowrap d-block">9:10 AM</span>
+                            </div>
+
+                            <span class="fs-2 d-block text-truncate">Just a reminder that you have event</span>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="user-img position-relative d-inline-block">
+                            <img src="assets/images/profile/user-3.jpg" alt="user" class="rounded-circle w-100 round-40" />
+                            <span class="profile-status bg-success position-absolute rounded-circle"></span>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Andrew Johnson</h6>
+                              <span class="fs-2 text-nowrap d-block">9:08 AM</span>
+                            </div>
+                            <span class="fs-2 d-block text-truncate">You can customize this template as you want</span>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="user-img position-relative d-inline-block">
+                            <img src="assets/images/profile/user-4.jpg" alt="user" class="rounded-circle w-100 round-40" />
+                            <span class="profile-status bg-success position-absolute rounded-circle"></span>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Mark Strokes</h6>
+                              <span class="fs-2 text-nowrap d-block">9:30 AM</span>
+                            </div>
+                            <span class="fs-2 d-block text-truncate">Just see the my new admin!</span>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="user-img position-relative d-inline-block">
+                            <img src="assets/images/profile/user-5.jpg" alt="user" class="rounded-circle w-100 round-40" />
+                            <span class="profile-status bg-success position-absolute rounded-circle"></span>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Mark, Stoinus & Rishvi..</h6>
+                              <span class="fs-2 text-nowrap d-block">9:10 AM</span>
+                            </div>
+                            <span class="fs-2 d-block text-truncate">Just a reminder that you have event</span>
+                          </div>
+                        </a>
+                        <a href="javascript:void(0)" class="p-3 pe-0 d-flex align-items-center dropdown-item gap-3 border-bottom">
+                          <span class="user-img position-relative d-inline-block">
+                            <img src="assets/images/profile/user-6.jpg" alt="user" class="rounded-circle w-100 round-40" />
+                            <span class="profile-status bg-success position-absolute rounded-circle"></span>
+                          </span>
+                          <div class="w-75">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <h6 class="mb-0 fw-semibold lh-base">Settings</h6>
+                              <span class="fs-2 text-nowrap d-block">9:08 AM</span>
+                            </div>
+                            <span class="fs-2 d-block text-truncate">You can customize this template as you want</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div>
+                        <a class="d-flex align-items-center pt-3 pb-2 justify-content-center" href="javascript:void(0);">
+                          <span class="fw-semibold">See all e-Mails</span>
+                          <i data-feather="chevron-right" class="feather-sm"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="nav-item dropdown mega-dropdown nav-icon-hover-bg rounded-circle">
+                    <a class="nav-link" id="drop2" href="javascript:void(0)" aria-haspopup="true" aria-expanded="false">
+                      <iconify-icon icon="solar:widget-3-line-duotone"></iconify-icon>
+                    </a>
+                    <div class="dropdown-menu rounded-0 dropdown-menu-animate-up mt-0" aria-labelledby="drop2">
+                      <div class="mega-dropdown-menu row">
+                        <div class="col-lg-3 col-xl-2 mb-4">
+                          <h4 class="mb-3 fs-5 ">Carousel</h4>
+                          <!-- CAROUSEL -->
+                          <div id="carouselExampleControls" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img class="d-block img-fluid" src="assets/images/blog/blog-img1.jpg" alt="First slide" />
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block img-fluid" src="assets/images/blog/blog-img2.jpg" alt="Second slide" />
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block img-fluid" src="assets/images/blog/blog-img3.jpg" alt="Third slide" />
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </a>
+                          </div>
+                          <!-- End CAROUSEL -->
+                        </div>
+                        <div class="col-lg-3 mb-4">
+                          <h4 class="mb-3 fs-5">Accordion</h4>
+                          <!-- Accordian -->
+                          <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                  Accordion Item #1
+                                </button>
+                              </h2>
+                              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                  Anim pariatur cliche reprehenderit, enim eiusmod
+                                  high life accusamus terry richardson ad squid.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                  Accordion Item #2
+                                </button>
+                              </h2>
+                              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                  Anim pariatur cliche reprehenderit, enim eiusmod
+                                  high life accusamus terry richardson ad squid.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                  Accordion Item #3
+                                </button>
+                              </h2>
+                              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                  Anim pariatur cliche reprehenderit, enim eiusmod
+                                  high life accusamus terry richardson ad squid.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 mb-4">
+                          <h4 class="mb-3 fs-5">Contact Us</h4>
+                          <!-- Contact -->
+                          <form>
+                            <div class="mb-3 form-floating">
+                              <input type="text" class="form-control" id="exampleInputname1" placeholder="Enter Name" />
+                              <label>Enter Name</label>
+                            </div>
+                            <div class="mb-3 form-floating">
+                              <input type="email" class="form-control" placeholder="Enter email" />
+                              <label>Enter Email address</label>
+                            </div>
+                            <div class="mb-3 form-floating">
+                              <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Message"></textarea>
+                              <label>Enter Message</label>
+                            </div>
+                            <button type="submit" class="btn px-4 rounded-pill btn-primary">
+                              Submit
+                            </button>
+                          </form>
+                        </div>
+                        <div class="col-lg-3 col-xlg-4 mb-4">
+                          <h4 class="mb-3 fs-5">List style</h4>
+                          <ol class="list-group list-group-numbered">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">Subheading</div>
+                                <div class=" d-block text-body-secondary text-truncate text-truncate">Content for list item</div>
+                              </div>
+                              <span class="badge bg-primary rounded-pill">14</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">Subheading</div>
+                                <div class=" d-block text-body-secondary text-truncate text-truncate">Content for list item</div>
+                              </div>
+                              <span class="badge bg-primary rounded-pill">14</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">Subheading</div>
+                                <div class=" d-block text-body-secondary text-truncate text-truncate">Content for list item</div>
+                              </div>
+                              <span class="badge bg-primary rounded-pill">14</span>
+                            </li>
+                          </ol>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+
+                  <!-- ------------------------------- -->
+                  <!-- end notification Dropdown -->
+                  <!-- ------------------------------- -->
+                  <!-- ------------------------------- -->
+                  <!-- start language Dropdown -->
+                  <!-- ------------------------------- -->
+                  <li class="nav-item dropdown nav-icon-hover-bg rounded-circle">
+                    <a class="nav-link" href="javascript:void(0)" id="drop2" aria-expanded="false">
+                      <img src="assets/images/svgs/icon-flag-en.svg" alt="adminpro-img" width="20px" height="20px" class="round-20" />
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
+                      <div class="message-body">
+                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 py-2 px-4 dropdown-item">
+                          <div class="position-relative">
+                            <img src="assets/images/svgs/icon-flag-en.svg" alt="adminpro-img" width="20px" height="20px" class="  round-20" />
+                          </div>
+                          <p class="mb-0 fs-3">English</p>
+                        </a>
+                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 py-2 px-4 dropdown-item">
+                          <div class="position-relative">
+                            <img src="assets/images/svgs/icon-flag-cn.svg" alt="adminpro-img" width="20px" height="20px" class="  round-20" />
+                          </div>
+                          <p class="mb-0 fs-3">Chinese</p>
+                        </a>
+                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 py-2 px-4 dropdown-item">
+                          <div class="position-relative">
+                            <img src="assets/images/svgs/icon-flag-fr.svg" alt="adminpro-img" width="20px" height="20px" class="  round-20" />
+                          </div>
+                          <p class="mb-0 fs-3">French</p>
+                        </a>
+                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 py-2 px-4 dropdown-item">
+                          <div class="position-relative">
+                            <img src="assets/images/svgs/icon-flag-sa.svg" alt="adminpro-img" width="20px" height="20px" class="  round-20" />
+                          </div>
+                          <p class="mb-0 fs-3">Arabic</p>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- ------------------------------- -->
+                  <!-- end language Dropdown -->
+                  <!-- ------------------------------- -->
+
+
+
+                  <!-- ------------------------------- -->
+                  <!-- start profile Dropdown -->
+                  <!-- ------------------------------- -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="javascript:void(0)" id="drop2" aria-expanded="false">
+                      <img src="assets/images/profile/user-1.jpg" alt="user" width="30" class="profile-pic rounded-circle" />
+                    </a>
+                    <div class="dropdown-menu content-dd overflow-hidden pt-0  dropdown-menu-end user-dd
+      animated
+      flipInY" aria-labelledby="drop2">
+                      <div class="profile-dropdown position-relative" data-simplebar>
+                        <div class="py-3 px-7 pb-0">
+                          <h5 class="mb-0 fs-5 fw-semibold">User Profile</h5>
+                        </div>
+                        <div class="d-flex align-items-center py-9 mx-7 border-bottom">
+                          <img src="assets/images/profile/user-1.jpg" class="rounded-circle" width="80" height="80" alt="adminpro-img" />
+                          <div class="ms-3">
+                            <h5 class="mb-1 fs-4">Tania Andrew</h5>
+                            <span class="mb-1 d-block">Designer</span>
+                            <p class="mb-0 d-flex align-items-center gap-2">
+                              <i class="ti ti-mail fs-4"></i> therichpost.com
+                            </p>
+                          </div>
+                        </div>
+                        <div class="message-body">
+                          <a href="../main/page-user-profile.html" class="py-8 px-7 mt-8 d-flex align-items-center">
+                            <span class="d-flex align-items-center justify-content-center bg-primary-subtle rounded p-6 fs-7 text-primary">
+                              <iconify-icon icon="solar:user-circle-line-duotone"></iconify-icon>
+                            </span>
+                            <div class="w-75 d-inline-block v-middle ps-3">
+                              <h6 class="mb-1 fs-3 fw-semibold lh-base">My Profile</h6>
+                              <span class="fs-2 d-block text-body-secondary">Account Settings</span>
+                            </div>
+                          </a>
+                          <a href="../main/app-email.html" class="py-8 px-7 d-flex align-items-center">
+                            <span class="d-flex align-items-center justify-content-center bg-primary-subtle rounded p-6 fs-7 text-primary">
+                              <iconify-icon icon="solar:inbox-line-line-duotone"></iconify-icon>
+                            </span>
+                            <div class="w-75 d-inline-block v-middle ps-3">
+                              <h6 class="mb-1 fs-3 fw-semibold lh-base">My Inbox</h6>
+                              <span class="fs-2 d-block text-body-secondary">Messages & Emails</span>
+                            </div>
+                          </a>
+                          <a href="../main/app-notes.html" class="py-8 px-7 d-flex align-items-center">
+                            <span class="d-flex align-items-center justify-content-center bg-primary-subtle rounded p-6 fs-7 text-primary">
+                              <iconify-icon icon="solar:checklist-minimalistic-line-duotone"></iconify-icon>
+                            </span>
+                            <div class="w-75 d-inline-block v-middle ps-3">
+                              <h6 class="mb-1 fs-3 fw-semibold lh-base">My Task</h6>
+                              <span class="fs-2 d-block text-body-secondary">To-do and Daily Tasks</span>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="d-grid py-4 px-7 pt-8">
+                          <a href="../main/authentication-login.html" class="btn btn-primary">Log Out</a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <!-- ------------------------------- -->
+                  <!-- end profile Dropdown -->
+                  <!-- ------------------------------- -->
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!--  Header End -->
+      <aside class="left-sidebar with-horizontal">
+        <!-- Sidebar scroll-->
+        <div>
+          <!-- Sidebar navigation-->
+          <nav id="sidebarnavh" class="sidebar-nav scroll-sidebar container-fluid">
+            <ul id="sidebarnav">
+              <!-- ============================= -->
+              <!-- Home -->
+              <!-- ============================= -->
+              <li class="nav-small-cap">
+                <span class="hide-menu">Home</span>
+              </li>
+              <!-- =================== -->
+              <!-- Dashboard -->
+              <!-- =================== -->
+              <li class="sidebar-item">
+                <a class="sidebar-link has-arrow" href="javascript:void(0)" aria-expanded="false">
+                  <span>
+                    <iconify-icon icon="solar:widget-4-line-duotone"></iconify-icon>
+                  </span>
+                  <span class="hide-menu">Dashboard</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="../main/index.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Minimal</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/index2.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu"> Analytical </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/index3.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu"> Demographical </span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/index4.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu"> Modern </span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- ============================= -->
+              <!-- Apps -->
+              <!-- ============================= -->
+              <li class="nav-small-cap">
+                <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+                <span class="hide-menu">Apps</span>
+              </li>
+              <li class="sidebar-item">
+                <a class="sidebar-link two-column has-arrow" href="javascript:void(0)" aria-expanded="false">
+                  <span>
+                    <iconify-icon icon="solar:palette-line-duotone"></iconify-icon>
+                  </span>
+                  <span class="hide-menu">Apps</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="../main/app-calendar.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Calendar</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/app-kanban.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Kanban</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/app-chat.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Chat</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a class="sidebar-link" href="../main/app-email.html" aria-expanded="false">
+                      <span>
+                        <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      </span>
+                      <span class="hide-menu">Email</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/app-contact.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Contact Table</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/app-contact2.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Contact List</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/app-notes.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Notes</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/app-invoice.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Invoice</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/page-user-profile.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">User Profile</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/blog-posts.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Posts</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/blog-detail.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Detail</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/eco-shop.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Shop</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/eco-shop-detail.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Shop Detail</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/eco-product-list.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">List</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/eco-checkout.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Checkout</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a class="sidebar-link" href="../main/eco-add-product.html">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Add Product</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a class="sidebar-link" href="../main/eco-edit-product.html">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Edit Product</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- ============================= -->
+              <!-- PAGES -->
+              <!-- ============================= -->
+              <li class="nav-small-cap">
+                <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+                <span class="hide-menu">PAGES</span>
+              </li>
+              <li class="sidebar-item">
+                <a class="sidebar-link has-arrow" href="javascript:void(0)" aria-expanded="false">
+                  <span>
+                    <iconify-icon icon="solar:notes-line-duotone"></iconify-icon>
+                  </span>
+                  <span class="hide-menu">Pages</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="../main/page-faq.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">FAQ</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/page-account-settings.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Account Setting</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/page-pricing.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Pricing</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/widgets-cards.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Card</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/widgets-banners.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Banner</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/widgets-charts.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Charts</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- ============================= -->
+              <!-- UI -->
+              <!-- ============================= -->
+              <li class="nav-small-cap">
+                <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+                <span class="hide-menu">UI</span>
+              </li>
+              <!-- =================== -->
+              <!-- UI Elements -->
+              <!-- =================== -->
+              <li class="sidebar-item mega-dropdown">
+                <a class="sidebar-link has-arrow" href="javascript:void(0)" aria-expanded="false">
+                  <span class="rounded-3">
+                    <iconify-icon icon="solar:widget-2-line-duotone"></iconify-icon>
+                  </span>
+                  <span class="hide-menu">UI</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="../main/ui-accordian.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Accordian</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/ui-badge.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Badge</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/ui-buttons.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Buttons</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/ui-dropdowns.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Dropdowns</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/ui-modals.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Modals</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/ui-tab.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Tab</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/ui-tooltip-popover.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Tooltip & Popover</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/ui-notification.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Alerts</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/ui-progressbar.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Progressbar</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/ui-pagination.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Pagination</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/ui-typography.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Typography</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/ui-bootstrap-ui.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Bootstrap UI</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/ui-breadcrumb.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Breadcrumb</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/ui-offcanvas.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Offcanvas</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/ui-lists.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Lists</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/ui-grid.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Grid</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/ui-carousel.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Carousel</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/ui-scrollspy.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Scrollspy</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/ui-spinner.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Spinner</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/ui-link.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Link</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- ============================= -->
+              <!-- Forms -->
+              <!-- ============================= -->
+              <li class="nav-small-cap">
+                <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+                <span class="hide-menu">Forms</span>
+              </li>
+              <!-- =================== -->
+              <!-- Forms -->
+              <!-- =================== -->
+              <li class="sidebar-item">
+                <a class="sidebar-link two-column has-arrow" href="javascript:void(0)" aria-expanded="false">
+                  <span class="rounded-3">
+                    <iconify-icon icon="solar:file-text-line-duotone"></iconify-icon>
+                  </span>
+                  <span class="hide-menu">Forms</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <!-- form elements -->
+                  <li class="sidebar-item">
+                    <a href="../main/form-inputs.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Forms Input</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/form-input-groups.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Input Groups</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/form-input-grid.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Input Grid</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/form-checkbox-radio.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Checkbox & Radios</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/form-bootstrap-switch.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Bootstrap Switch</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/form-select2.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Select2</span>
+                    </a>
+                  </li>
+
+                  <!-- form inputs -->
+                  <li class="sidebar-item">
+                    <a href="../main/form-basic.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Basic Form</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/form-vertical.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Form Vertical</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/form-horizontal.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Form Horizontal</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/form-actions.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Form Actions</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/form-row-separator.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Row Separator</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/form-bordered.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Form Bordered</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/form-detail.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Form Detail</span>
+                    </a>
+                  </li>
+                  <!-- form wizard -->
+                  <li class="sidebar-item">
+                    <a href="../main/form-wizard.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Form Wizard</span>
+                    </a>
+                  </li>
+                  <!-- Quill Editor -->
+                  <li class="sidebar-item">
+                    <a href="../main/form-editor-quill.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Quill Editor</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- ============================= -->
+              <!-- Tables -->
+              <!-- ============================= -->
+              <li class="nav-small-cap">
+                <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+                <span class="hide-menu">Tables</span>
+              </li>
+              <!-- =================== -->
+              <!-- Bootstrap Table -->
+              <!-- =================== -->
+              <li class="sidebar-item">
+                <a class="sidebar-link has-arrow" href="javascript:void(0)" aria-expanded="false">
+                  <span class="rounded-3">
+                    <iconify-icon icon="solar:layers-minimalistic-line-duotone"></iconify-icon>
+                  </span>
+                  <span class="hide-menu">Tables</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="../main/table-basic.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Basic Table</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/table-dark-basic.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Dark Basic Table</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/table-sizing.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Sizing Table</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/table-layout-coloured.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Coloured Table</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/table-datatable-basic.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Basic Initialisation</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/table-datatable-api.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">API</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/table-datatable-advanced.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Advanced Initialisation</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- ============================= -->
+              <!-- Charts -->
+              <!-- ============================= -->
+              <li class="nav-small-cap">
+                <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+                <span class="hide-menu">Charts</span>
+              </li>
+              <!-- =================== -->
+              <!-- Apex Chart -->
+              <!-- =================== -->
+              <li class="sidebar-item">
+                <a class="sidebar-link has-arrow" href="javascript:void(0)" aria-expanded="false">
+                  <span class="rounded-3">
+                    <iconify-icon icon="solar:pie-chart-2-line-duotone"></iconify-icon>
+                  </span>
+                  <span class="hide-menu">Charts</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="../main/chart-apex-line.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Line Chart</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/chart-apex-area.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Area Chart</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/chart-apex-bar.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Bar Chart</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/chart-apex-pie.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Pie Chart</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/chart-apex-radial.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Radial Chart</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/chart-apex-radar.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Radar Chart</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- ============================= -->
+              <!-- Icons -->
+              <!-- ============================= -->
+              <li class="nav-small-cap">
+                <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+                <span class="hide-menu">Icons</span>
+              </li>
+              <!-- =================== -->
+              <!-- Tabler Icon -->
+              <!-- =================== -->
+              <li class="sidebar-item">
+                <a class="sidebar-link has-arrow" href="javascript:void(0)" aria-expanded="false">
+                  <span class="rounded-3">
+                    <iconify-icon icon="solar:sticker-smile-circle-2-line-duotone"></iconify-icon>
+                  </span>
+                  <span class="hide-menu">Icon</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="../main/icon-tabler.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Tabler Icon</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="../main/icon-solar.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Solar Icon</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- multi level -->
+              <li class="sidebar-item">
+                <a class="sidebar-link has-arrow" href="javascript:void(0)" aria-expanded="false">
+                  <span class="rounded-3">
+                    <iconify-icon icon="solar:align-left-line-duotone" class="ti"></iconify-icon>
+                  </span>
+                  <span class="hide-menu">Multi DD</span>
+                </a>
+                <ul aria-expanded="false" class="collapse first-level">
+                  <li class="sidebar-item">
+                    <a href="../docs/index.html" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Documentation</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="javascript:void(0)" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Page 1</span>
+                    </a>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="javascript:void(0)" class="sidebar-link has-arrow">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Page 2</span>
+                    </a>
+                    <ul aria-expanded="false" class="collapse second-level">
+                      <li class="sidebar-item">
+                        <a href="javascript:void(0)" class="sidebar-link">
+                          <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                          <span class="hide-menu">Page 2.1</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="javascript:void(0)" class="sidebar-link">
+                          <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                          <span class="hide-menu">Page 2.2</span>
+                        </a>
+                      </li>
+                      <li class="sidebar-item">
+                        <a href="javascript:void(0)" class="sidebar-link">
+                          <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                          <span class="hide-menu">Page 2.3</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sidebar-item">
+                    <a href="javascript:void(0)" class="sidebar-link">
+                      <iconify-icon icon="solar:stop-circle-line-duotone"></iconify-icon>
+                      <span class="hide-menu">Page 3</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <!-- End Sidebar navigation -->
+        </div>
+        <!-- End Sidebar scroll-->
+      </aside>
+
+      <div class="body-wrapper">
+        <div class="container-fluid">
+
+          <div class="reverse-mode">
+            <!-- -------------------------------------------------------------- -->
+            <!-- Left Part  -->
+            <!-- -------------------------------------------------------------- -->
+            <div class="left-part bg-light dashboard-right-part fixed-left-part border-0">
+              <!-- Mobile toggle button -->
+              <a class="ri-menu-fill ri-close-fill btn btn-success show-left-part d-block d-lg-none fs-6 rounded-end" href="javascript:void(0)">
+              </a>
+              <!-- Mobile toggle button -->
+              <div class="scrollable position-relative scroll-sidebar h-n50" data-simplebar>
+                <div class="px-3 pt-3">
+                  <h5 class="text-muted mb-0">San Francisco, CA</h5>
+                  <h3>Mon, July 14 11 AM</h3>
+                  <div class="d-flex mt-4">
+                    <div class="display-5 text-primary">
+                      <iconify-icon icon="solar:cloud-sun-2-line-duotone"></iconify-icon>
+                    </div>
+                    <div class="ms-3">
+                      <h2 class="mb-0">72°F</h2>
+                      <span>Clear with periodic clouds</span>
+                    </div>
+                  </div>
+                  <div class="vstack gap-3 mt-3">
+                    <div class="hstack w-100 justify-content-between">
+                      <div class="d-flex align-items-center gap-2">
+                        <span class="fs-7">
+                          <iconify-icon icon="solar:cloud-snowfall-line-duotone"></iconify-icon>
+                        </span>
+                        Saturday
+                      </div>
+                      <span class="fw-medium">65 ° F</span>
+                    </div>
+                    <!-- 2 -->
+                    <div class="hstack w-100 justify-content-between">
+                      <div class="d-flex align-items-center gap-2">
+                        <span class="fs-7">
+                          <iconify-icon icon="solar:cloud-sun-line-duotone"></iconify-icon>
+                        </span>
+                        Sunday
+                      </div>
+                      <span class="fw-medium">70 ° F</span>
+                    </div>
+                    <!-- 3 -->
+                    <div class="hstack w-100 justify-content-between">
+                      <div class="d-flex align-items-center gap-2">
+                        <span class="fs-7">
+                          <iconify-icon icon="solar:cloud-sun-line-duotone"></iconify-icon>
+                        </span>
+                        Monday
+                      </div>
+                      <span class="fw-medium">73 ° F</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-3">
+                  <h3 class="position-relative d-flex">
+                    <span class="lstick d-inline-block align-middle"></span>
+                    Message<span class="ms-auto fs-3 p-2 badge rounded-pill bg-success">16</span>
+                  </h3>
+                  <div class="msg-widget mt-3">
+                    <div class="msg-item mb-3">
+                      <div class="msg-body p-3 position-relative fs-3 bg-white">
+                        It has survived not only five centuries, but also the
+                        leap into electronic typesetting, remaining
+                        essentially unchanged.
+                        <span class="down-arrow"></span>
+                      </div>
+                      <div class="mt-3 d-flex">
+                        <div class="me-3">
+                          <img src="assets/images/profile/user-3.jpg" alt="user" width="40" class="rounded-circle" />
+                        </div>
+                        <div class="author">
+                          <h5 class="mb-0">Mark Freeman</h5>
+                          <p class="text-muted fs-3">Today 04:12 PM</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="msg-item mb-3">
+                      <div class="msg-body p-3 position-relative fs-3 bg-white">
+                        It has survived not only five centuries, but also the
+                        leap into electronic typesetting, remaining
+                        essentially unchanged.
+                        <span class="down-arrow"></span>
+                      </div>
+                      <div class="mt-3 d-flex">
+                        <div class="me-3">
+                          <img src="assets/images/profile/user-6.jpg" alt="user" width="40" class="rounded-circle" />
+                        </div>
+                        <div class="author">
+                          <h5 class="mb-0">Mark Freeman</h5>
+                          <p class="text-muted fs-3">Today 04:12 PM</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="msg-item">
+                      <div class="msg-body p-3 position-relative fs-3 bg-white">
+                        It has survived not only five centuries, but also the
+                        leap into electronic typesetting, remaining
+                        essentially unchanged.
+                        <span class="down-arrow"></span>
+                      </div>
+                      <div class="mt-3 d-flex">
+                        <div class="me-3">
+                          <img src="assets/images/profile/user-5.jpg" alt="user" width="40" class="rounded-circle" />
+                        </div>
+                        <div class="author">
+                          <h5 class="mb-0">Mark Freeman</h5>
+                          <p class="text-muted fs-3">Today 04:12 PM</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-3">
+                  <div class="card bg-info text-white">
+                    <div class="card-body">
+                      <div class="d-flex">
+                        <div class="stats">
+                          <h1 class="text-white">3257+</h1>
+                          <h6 class="text-white opacity-75">
+                            Twitter Followers
+                          </h6>
+                          <button class="btn rounded-pill btn-outline btn-custom-dark mt-2 fs-3">
+                            Check list
+                          </button>
+                        </div>
+                        <div class="stats-icon text-end ms-auto">
+                          <i class="ri-twitter-fill display-5"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card bg-primary text-white">
+                    <div class="card-body">
+                      <div class="d-flex">
+                        <div class="stats">
+                          <h1 class="text-white">6509+</h1>
+                          <h6 class="text-white opacity-75">
+                            Facebook Likes
+                          </h6>
+                          <button class="btn rounded-pill btn-outline btn-custom-dark mt-2 fs-3">
+                            Check list
+                          </button>
+                        </div>
+                        <div class="stats-icon text-end ms-auto">
+                          <i class="ri-facebook-fill display-5"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex">
+                        <div class="stats">
+                          <h1>9062+</h1>
+                          <h6 class="text-muted">Subscribe</h6>
+                          <button class="btn rounded-pill btn-outline btn-secondary mt-2 fs-3">
+                            Check list
+                          </button>
+                        </div>
+                        <div class="stats-icon text-end ms-auto">
+                          <iconify-icon icon="solar:letter-bold-duotone" class="display-5"></iconify-icon>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -------------------------------------------------------------- -->
+            <!-- End Left Part  -->
+            <!-- -------------------------------------------------------------- -->
+            <!-- -------------------------------------------------------------- -->
+            <!-- Right Part  Mail Compose -->
+            <!-- -------------------------------------------------------------- -->
+            <div class="right-part overflow-auto dashboard-part h-100">
+              <!-- -------------------------------------------------------------- -->
+              <!-- Bread crumb and right sidebar toggle -->
+              <!-- -------------------------------------------------------------- -->
+              <div class=" shadow-none position-relative overflow-hidden mb-4 card">
+                <div class="card-body">
+                  <div class="d-sm-flex justify-content-between align-items-center">
+                    <h4 class=" mb-0">
+                      <span class="lstick d-inline-block align-middle"></span> Dashboard
+                    </h4>
+                    <nav aria-label="breadcrumb" class="d-flex align-items-center">
+                      <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                          <a class="text-primary text-decoration-none" href="../main/index.html">Home
+                          </a>
+                        </li>
+                        <li class="breadcrumb-item" aria-current="page">Dashboard</li>
+                      </ol>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+
+              <!-- -------------------------------------------------------------- -->
+              <!-- End Bread crumb and right sidebar toggle -->
+              <!-- -------------------------------------------------------------- -->
+              <div class="row">
+                <div class="col-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-md-flex">
+                        <div>
+                          <h4 class="card-title">
+                            <span class="lstick d-inline-block align-middle"></span>Sales Overview
+                          </h4>
+                          <p class="card-subtitle">Year 2024</p>
+                        </div>
+                        <div class="ms-auto">
+                          <div class="d-block d-md-flex flex-column flex-md-row gap-3">
+                            <div class="d-flex align-items-center">
+                              <div>
+                                <h3 class="mb-0 fs-6 d-flex align-items-center">
+                                  <i class="round-8 bg-primary rounded-circle me-6"></i>
+                                  10368
+                                </h3>
+                                <h6 class="text-muted ms-3 ps-1">Earning</h6>
+                              </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                              <div>
+                                <h3 class="mb-0 fs-6 d-flex align-items-center">
+                                  <i class="round-8 bg-info rounded-circle me-6"></i>12659
+                                </h3>
+                                <h6 class="text-muted ms-3 ps-1">Expense</h6>
+                              </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                              <div>
+                                <h3 class="mb-0 fs-6 d-flex align-items-center">
+                                  <i class="round-8 bg-light-dark rounded-circle me-6"></i>15478
+                                </h3>
+                                <h6 class="text-muted ms-3 ps-1">Sales</h6>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="Sales-Overview" class="mx-n6"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 d-flex align-items-stretch">
+                  <div class="card w-100">
+                    <div class="card-body">
+                      <div class="d-flex">
+                        <div class="me-3 align-self-center">
+                          <span class="lstick d-inline-block align-middle me-3"></span>
+                          <img src="assets/images/icon/income.png" alt="Income" />
+                        </div>
+                        <div class="align-self-center">
+                          <h6 class="text-muted mt-2 mb-0">Total Income</h6>
+                          <h2 class="fs-7">953,000</h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 d-flex align-items-stretch">
+                  <div class="card w-100">
+                    <div class="card-body">
+                      <div class="d-flex">
+                        <div class="me-3 align-self-center">
+                          <span class="lstick d-inline-block align-middle me-3"></span>
+                          <img src="assets/images/icon/expense.png" alt="Income" />
+                        </div>
+                        <div class="align-self-center">
+                          <h6 class="text-muted mt-2 mb-0">Total Expense</h6>
+                          <h2 class="fs-7">236,000</h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 d-flex align-items-stretch">
+                  <div class="card w-100">
+                    <div class="card-body">
+                      <div class="d-flex">
+                        <div class="me-3 align-self-center">
+                          <span class="lstick d-inline-block align-middle me-3"></span>
+                          <img src="assets/images/icon/assets.png" alt="Income" />
+                        </div>
+                        <div class="align-self-center">
+                          <h6 class="text-muted mt-2 mb-0">Total Assets</h6>
+                          <h2 class="fs-7">987,563</h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-md-flex">
+                        <div>
+                          <h4 class="card-title">
+                            <span class="lstick d-inline-block align-middle"></span>Projects of the Month
+                          </h4>
+                        </div>
+                        <div class="ms-auto">
+                          <select class="form-select">
+                            <option selected="">January</option>
+                            <option value="1">February</option>
+                            <option value="2">March</option>
+                            <option value="3">April</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="table-responsive mt-3 no-wrap">
+                        <table class="table v-middle mb-0">
+                          <thead>
+                            <tr>
+                              <th class="border-0" colspan="2">Assigned</th>
+                              <th class="border-0">Name</th>
+                              <th class="border-0">Priority</th>
+                              <th class="border-0">Budget</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="pe-0 w50">
+                                <img src="assets/images/profile/user-8.jpg" class="rounded-circle round-40" alt="user" width="50" />
+                              </td>
+                              <td>
+                                <h6 class="mb-0 fw-semibold">Sunil Joshi</h6>
+                                <small class="text-muted">Web Designer</small>
+                              </td>
+                              <td>Elite Admin</td>
+                              <td>
+                                <span class="badge bg-success rounded-pill">Low</span>
+                              </td>
+                              <td>$3.9K</td>
+                            </tr>
+                            <tr>
+                              <td class="pe-0">
+                                <span>
+                                  <img src="assets/images/profile/user-3.jpg" class="rounded-circle round-40" alt="user" width="50" />
+                                </span>
+                              </td>
+                              <td>
+                                <h6 class="mb-0 fw-semibold">Andrew</h6>
+                                <small class="text-muted">Project Manager</small>
+                              </td>
+                              <td>Real Homes</td>
+                              <td>
+                                <span class="badge bg-info rounded-pill">Medium</span>
+                              </td>
+                              <td>$23.9K</td>
+                            </tr>
+                            <tr>
+                              <td class="pe-0">
+                                <img src="assets/images/profile/user-4.jpg" class="rounded-circle round-40" alt="user" width="50" />
+                              </td>
+                              <td>
+                                <h6 class="mb-0 fw-semibold">Bhavesh patel</h6>
+                                <small class="text-muted">Developer</small>
+                              </td>
+                              <td>MedicalPro Theme</td>
+                              <td>
+                                <span class="badge bg-primary rounded-pill">High</span>
+                              </td>
+                              <td>$12.9K</td>
+                            </tr>
+                            <tr>
+                              <td class="pe-0">
+                                <img src="assets/images/profile/user-5.jpg" class="rounded-circle round-40" alt="user" width="50" />
+                              </td>
+                              <td>
+                                <h6 class="mb-0 fw-semibold">Nirav Joshi</h6>
+                                <small class="text-muted">Frontend Eng</small>
+                              </td>
+                              <td>Elite Admin</td>
+                              <td>
+                                <span class="badge bg-danger rounded-pill">Low</span>
+                              </td>
+                              <td>$10.9K</td>
+                            </tr>
+                            <tr>
+                              <td class="pe-0">
+                                <img src="assets/images/profile/user-6.jpg" class="rounded-circle round-40" alt="user" width="50" />
+                              </td>
+                              <td>
+                                <h6 class="mb-0 fw-semibold">Micheal Doe</h6>
+                                <small class="text-muted">Content Writer</small>
+                              </td>
+                              <td>Helping Hands</td>
+                              <td>
+                                <span class="badge bg-success rounded-pill">High</span>
+                              </td>
+                              <td>$12.9K</td>
+                            </tr>
+                            <tr>
+                              <td class="pe-0">
+                                <img src="assets/images/profile/user-7.jpg" class="rounded-circle round-40" alt="user" width="50" />
+                              </td>
+                              <td>
+                                <h6 class="mb-0 fw-semibold">Johnathan</h6>
+                                <small class="text-muted">Graphic</small>
+                              </td>
+                              <td>Digital Agency</td>
+                              <td>
+                                <span class="badge bg-info rounded-pill">High</span>
+                              </td>
+                              <td>$2.6K</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="card">
+                    <div class="card-body border-2">
+                      <div class="d-flex align-items-center">
+                        <h4 class="card-title">
+                          <span class="lstick d-inline-block align-middle"></span>Activity
+                        </h4>
+                        <div class="dropdown ms-auto">
+                          <a href="javascript:void(0)" class="icon-options-vertical link" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="ti ti-dots-vertical fs-6 text-dark"></i>
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li>
+                              <a class="dropdown-item" href="javascript:void(0)">Action</a>
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="javascript:void(0)">Another action</a>
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="javascript:void(0)">Something else here</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="activity-box scrollable">
+                      <div class="date-divider position-relative">
+                        <span class="badge bg-light text-dark fs-3 rounded-pill ms-3 position-relative">Today</span>
+                      </div>
+                      <div class="card-body">
+                        <!-- Activity item-->
+                        <div class="activity-item mb-4 d-flex">
+                          <div class="me-3">
+                            <img src="assets/images/profile/user-3.jpg" alt="user" width="40" class="rounded-circle" />
+                          </div>
+                          <div class="mt-2">
+                            <h6 class="mb-1 fw-semibold">
+                              Mark Freeman
+                              <span class="text-muted fs-3 ms-2 fw-medium">| &nbsp; 6:30 PM</span>
+                            </h6>
+                            <h6 class="text-muted">uploaded this file</h6>
+                            <div class="row">
+                              <div class="col-4">
+                                <img src="assets/images/icon/zip.png" alt="user" />
+                              </div>
+                              <div class="col-8 d-flex align-items-center">
+                                <div>
+                                  <h6 class="mb-0 fw-medium">Homepage.zip</h6>
+                                  <span>54 MB</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Activity item-->
+                        <!-- Activity item-->
+                        <div class="activity-item mb-4 d-flex">
+                          <div class="me-3">
+                            <img src="assets/images/profile/user-2.jpg" alt="user" width="40" class="rounded-circle" />
+                          </div>
+                          <div class="mt-2">
+                            <h6 class="mb-1 fw-semibold">
+                              Emma Smith
+                              <span class="text-muted fs-3 ms-2 fw-medium">| &nbsp; 6:30 PM</span>
+                            </h6>
+                            <h6 class="text-muted">
+                              joined projectname, and invited
+                              <a href="javascript:void(0)">@maxcage, @maxcage, @maxcage, @maxcage,
+                                @maxcage,+3</a>
+                            </h6>
+                            <span class="image-list mt-2">
+                              <a href="javascript:void(0)" class="align-middle position-relative">
+                                <img src="assets/images/profile/user-2.jpg" class="rounded-circle" alt="user" width="40" />
+                              </a>
+                              <a href="javascript:void(0)" class="align-middle position-relative">
+                                <img src="assets/images/profile/user-4.jpg" class="rounded-circle" alt="user" width="40" />
+                              </a>
+                              <a href="javascript:void(0)" class="align-middle position-relative">
+                                <img src="assets/images/profile/user-5.jpg" class="rounded-circle" alt="user" width="40" />
+                              </a>
+                              <a href="javascript:void(0)" class="align-middle position-relative">
+                                <img src="assets/images/profile/user-6.jpg" class="rounded-circle" alt="user" width="40" />
+                              </a>
+                              <a href="javascript:void(0)" class="align-middle position-relative">+3</a>
+                            </span>
+                          </div>
+                        </div>
+                        <!-- Activity item-->
+                      </div>
+                      <div class="date-divider position-relative">
+                        <span class="badge bg-light text-dark fs-3 rounded-pill ms-3 position-relative">Yesterday</span>
+                      </div>
+                      <div class="card-body">
+                        <!-- Activity item-->
+                        <div class="activity-item mb-4 d-flex">
+                          <div class="me-3">
+                            <img src="assets/images/profile/user-5.jpg" alt="user" width="40" class="rounded-circle" />
+                          </div>
+                          <div class="mt-2">
+                            <h6 class="mb-1 fw-semibold">
+                              David R. Jones
+                              <span class="text-muted fs-3 ms-2 fw-medium">| &nbsp; 6:30 PM</span>
+                            </h6>
+                            <h6 class="text-muted">uploaded this file</h6>
+                            <span>
+                              <a href="javascript:void(0)" class="me-2">
+                                <img src="assets/images/blog/blog-img8.jpg" alt="user" width="60" class="rounded" />
+                              </a>
+                              <a href="javascript:void(0)" class="me-2">
+                                <img src="assets/images/blog/blog-img9.jpg" alt="user" width="60" class="rounded" />
+                              </a>
+                              <a href="javascript:void(0)" class="me-2">
+                                <img src="assets/images/blog/blog-img11.jpg" alt="user" width="60" class="rounded" />
+                              </a>
+                            </span>
+                          </div>
+                        </div>
+                        <!-- Activity item-->
+                        <!-- Activity item-->
+                        <div class="activity-item mb-4 d-flex">
+                          <div class="me-3">
+                            <img src="assets/images/profile/user-6.jpg" alt="user" width="40" class="rounded-circle" />
+                          </div>
+                          <div class="mt-2">
+                            <h6 class="mb-1 fw-semibold">
+                              David R. Jones
+                              <span class="text-muted fs-3 ms-2 fw-medium">| &nbsp; 6:30 PM</span>
+                            </h6>
+                            <h6 class="text-muted">
+                              Commented on
+                              <a href="javascript:void(0)" class="ms-1">
+                                Test Project</a>
+                            </h6>
+                            <p class="mb-0">
+                              It has survived not only five centuries, but
+                              also the leap into
+                              <br />
+                              electrotypesetting, remaining essentially
+                              unchanged.
+                            </p>
+                          </div>
+                        </div>
+                        <!-- Activity item-->
+                        <!-- Activity item-->
+                        <div class="activity-item mb-4 d-flex">
+                          <div class="me-3">
+                            <img src="assets/images/profile/user-8.jpg" alt="user" width="40" class="rounded-circle" />
+                          </div>
+                          <div class="mt-2">
+                            <h6 class="mb-1 fw-semibold">
+                              David R. Jones
+                              <span class="text-muted fs-3 fw-medium ms-2">| &nbsp; 6:30 PM</span>
+                            </h6>
+                            <h6 class="text-muted">uploaded this file</h6>
+                            <p>It has survived not only five centuries</p>
+                            <span>
+                              <a href="javascript:void(0)" class="me-2">
+                                <img src="assets/images/blog/blog-img3.jpg" alt="user" width="60" class="rounded" />
+                              </a>
+                              <a href="javascript:void(0)" class="me-2">
+                                <img src="assets/images/blog/blog-img4.jpg" alt="user" width="60" class="rounded" />
+                              </a>
+                              <a href="javascript:void(0)" class="me-2">
+                                <img src="assets/images/blog/blog-img2.jpg" alt="user" width="60" class="rounded" />
+                              </a>
+                            </span>
+                          </div>
+                        </div>
+                        <!-- Activity item-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="card">
+                    <div class="card-body little-profile text-center">
+                      <div class="my-3">
+                        <img src="assets/images/profile/user-2.jpg" alt="user" width="128" class="rounded-circle shadow" />
+                      </div>
+                      <h3 class="mb-0">Angela Dominic</h3>
+                      <h6 class="text-muted">Web Designer &amp; Developer</h6>
+                      <ul class="list-inline social-icons mt-4">
+                        <li class="list-inline-item">
+                          <a href="javascript:void(0)">
+                            <i class="ri-twitter-fill"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="javascript:void(0)">
+                            <i class="ri-facebook-box-fill"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="javascript:void(0)">
+                            <i class="ri-google-fill"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="javascript:void(0)">
+                            <i class="ri-youtube-fill"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="javascript:void(0)">
+                            <i class="ri-instagram-line"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="text-center bg-body bg-opacity-75">
+                      <div class="row">
+                        <div class="col-6 p-3 border-end">
+                          <h4 class="mb-0 fw-medium">1099</h4>
+                          <small>Followers</small>
+                        </div>
+                        <div class="col-6 p-3">
+                          <h4 class="mb-0 fw-medium">603</h4>
+                          <small>Following</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body text-center">
+                      <a href="javascript:void(0)" class="mt-2 mb-3 waves-effect waves-dark btn btn-success btn-md rounded-pill">Follow me</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex">
+                        <h4 class="card-title">
+                          <span class="lstick d-inline-block align-middle"></span>My Contact
+                        </h4>
+                        <div class="dropdown ms-auto">
+                          <a href="javascript:void(0)" class="icon-options-vertical link" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="ti ti-dots-vertical fs-6 text-dark"></i>
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li>
+                              <a class="dropdown-item" href="javascript:void(0)">Action</a>
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="javascript:void(0)">Another action</a>
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="javascript:void(0)">Something else here</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="mailbox h-295" data-simplebar>
+                        <div class="message-center message-body position-relative">
+                          <a href="javascript:void(0)" class="message-item d-flex align-items-center border-bottom p-3">
+                            <span class="user-img position-relative d-inline-block">
+                              <img src="assets/images/profile/user-5.jpg" alt="user" class="rounded-circle w-100 round-40" />
+                              <span class="profile-status bg-success position-absolute rounded-circle"></span>
+                            </span>
+                            <div class="w-75 d-inline-block v-middle ps-3">
+                              <h6 class="message-title fw-semibold mb-1">
+                                Jassa
+                              </h6>
+                              <span class="fs-2 text-nowrap d-block time text-truncate text-bodycolor">Jassa</span>
+                            </div>
+                          </a>
+                          <!-- Message -->
+                          <a href="javascript:void(0)" class="message-item d-flex align-items-center border-bottom p-3">
+                            <span class="user-img position-relative d-inline-block">
+                              <img src="assets/images/profile/user-2.jpg" alt="user" class="rounded-circle w-100 round-40" />
+                              <span class="profile-status bg-danger position-absolute rounded-circle"></span>
+                            </span>
+                            <div class="w-75 d-inline-block v-middle ps-3">
+                              <h6 class="message-title fw-semibold mb-1">
+                                Sonu Nigam
+                              </h6>
+                              <span class="fs-2 text-nowrap d-block time text-truncate text-bodycolor">Jassa</span>
+                            </div>
+                          </a>
+                          <!-- Message -->
+                          <a href="javascript:void(0)" class="message-item d-flex align-items-center border-bottom p-3">
+                            <span class="user-img position-relative d-inline-block">
+                              <img src="assets/images/profile/user-3.jpg" alt="user" class="rounded-circle w-100 round-40" />
+                              <span class="profile-status bg-warning position-absolute rounded-circle"></span>
+                            </span>
+                            <div class="w-75 d-inline-block v-middle ps-3">
+                              <h6 class="message-title fw-semibold mb-1">
+                                Arijit Sinh
+                              </h6>
+                              <span class="fs-2 text-nowrap d-block time text-truncate text-bodycolor">Jassa</span>
+                            </div>
+                          </a>
+                          <!-- Message -->
+                          <a href="javascript:void(0)" class="message-item d-flex align-items-center border-bottom p-3">
+                            <span class="user-img position-relative d-inline-block">
+                              <img src="assets/images/profile/user-5.jpg" alt="user" class="rounded-circle w-100 round-40" />
+                              <span class="profile-status bg-warning position-absolute rounded-circle"></span>
+                            </span>
+                            <div class="w-75 d-inline-block v-middle ps-3">
+                              <h6 class="message-title fw-semibold mb-1">
+                                Pavan kumar
+                              </h6>
+                              <span class="fs-2 text-nowrap d-block time text-truncate text-bodycolor">Jassa</span>
+                            </div>
+                          </a>
+                          <!-- Message -->
+                          <a href="javascript:void(0)" class="message-item d-flex align-items-center border-bottom p-3">
+                            <span class="user-img position-relative d-inline-block">
+                              <img src="assets/images/profile/user-7.jpg" alt="user" class="rounded-circle w-100 round-40" />
+                              <span class="profile-status bg-danger position-absolute rounded-circle"></span>
+                            </span>
+                            <div class="w-75 d-inline-block v-middle ps-3">
+                              <h6 class="message-title fw-semibold mb-1">
+                                Sonu Nigam
+                              </h6>
+                              <span class="fs-2 text-nowrap d-block time text-truncate text-bodycolor">Jassa</span>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 d-flex align-items-stretch">
+                  <div class="card w-100">
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        <span class="lstick d-inline-block align-middle"></span>Visit Separation
+                      </h4>
+                      <div id="Visit-Separation" class="d-flex justify-content-center align-items-center h-295 w-100">
+                      </div>
+                      <table class="table v-middle fs-3 mb-1">
+                        <tr>
+                          <td>Mobile</td>
+                          <td class="text-end fw-medium">38.5%</td>
+                        </tr>
+                        <tr>
+                          <td>Tablet</td>
+                          <td class="text-end fw-medium">30.8%</td>
+                        </tr>
+                        <tr>
+                          <td>Desktop</td>
+                          <td class="text-end fw-medium">7.7%</td>
+                        </tr>
+                        <tr>
+                          <td class="border-0">Other</td>
+                          <td class="text-end fw-medium border-0">23.1%</td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8 d-flex align-items-stretch">
+                  <div class="card w-100">
+                    <div class="card-body">
+                      <div class="d-md-flex align-items-center">
+                        <h4 class="card-title">
+                          <span class="lstick d-inline-block align-middle"></span>Website Visit
+                        </h4>
+                        <ul class="list-inline mb-0 ms-auto">
+                          <li class="list-inline-item">
+                            <h6 class="text-success">
+                              <i class="ri-checkbox-blank-circle-fill align-middle fs-2 me-2"></i>Site A view
+                            </h6>
+                          </li>
+                          <li class="list-inline-item">
+                            <h6 class="text-primary">
+                              <i class="ri-checkbox-blank-circle-fill align-middle fs-2 me-2"></i>Site B view
+                            </h6>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="text-center mt-2">
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                          <button type="button" class="btn btn-sm btn-outline-secondary shadow-sm me-0 fs-2">
+                            PAGEVIEWS
+                          </button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary shadow-sm fs-2">
+                            REFERRALS
+                          </button>
+                        </div>
+                      </div>
+                      <div id="Website-Visit" class="position-relative mt-4 rounded-bars w-100"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="card w-100">
+                    <div class="card-body">
+                      <div class="d-md-flex align-items-center">
+                        <div>
+                          <h4 class="card-title">
+                            <span class="lstick d-inline-block align-middle"></span>To Do list
+                          </h4>
+                          <p class="card-subtitle mb-0">
+                            List of your next task to complete
+                          </p>
+                        </div>
+                        <div class="ms-auto mt-3 mt-md-0">
+                          <button class="btn btn-sm rounded-pill btn-success" data-bs-toggle="modal" data-bs-target="#myModal">
+                            Add Task
+                          </button>
+                        </div>
+                      </div>
+
+                      <!-- -------------------------------------------------------------- -->
+                      <!-- To do list widgets -->
+                      <!-- -------------------------------------------------------------- -->
+                      <div class="to-do-widget mt-3 common-widget">
+                        <!-- .modal for add task -->
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header d-flex">
+                                <h4 class="modal-title">Add Task</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form>
+                                  <div class="mb-3">
+                                    <label>Task name</label>
+                                    <input type="text" class="form-control" placeholder="Enter Task Name" />
+                                  </div>
+                                  <div class="mb-3">
+                                    <label>Assign to</label>
+                                    <select class="form-select">
+                                      <option selected="">Sachin</option>
+                                      <option value="1">Sehwag</option>
+                                    </select>
+                                  </div>
+                                </form>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                  Close
+                                </button>
+                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">
+                                  Submit
+                                </button>
+                              </div>
+                            </div>
+                            <!-- /.modal-content -->
+                          </div>
+                          <!-- /.modal-dialog -->
+                        </div>
+                        <!-- /.modal -->
+                        <ul class="list-task todo-list list-group mb-0" data-role="tasklist">
+                          <li class="list-group-item border-0 mb-0 py-3 pe-3 ps-0" data-role="task">
+                            <div class="form-check form-check-inline w-100">
+                              <input type="checkbox" class="form-check-input danger bg-danger-subtle" id="inputSchedule" name="inputCheckboxesSchedule" />
+                              <label for="inputSchedule" class="form-check-label fw-semibold">
+                                <span>Schedule meeting with</span>
+                                <span class="badge bg-danger badge-pill ms-1">Today</span>
+                              </label>
+                            </div>
+                            <ul class="assignedto list-style-none m-0 ps-4 ms-1 mt-1">
+                              <li class="d-inline-block border-0 me-1">
+                                <img src="assets/images/profile/user-5.jpg" alt="user" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-original-title="Steave" class="rounded-circle" />
+                              </li>
+                              <li class="d-inline-block border-0 me-1">
+                                <img src="assets/images/profile/user-2.jpg" alt="user" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-original-title="Jessica" class="rounded-circle" />
+                              </li>
+                              <li class="d-inline-block border-0 me-1">
+                                <img src="assets/images/profile/user-3.jpg" alt="user" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-original-title="Priyanka" class="rounded-circle" />
+                              </li>
+                              <li class="d-inline-block border-0 me-1">
+                                <img src="assets/images/profile/user-4.jpg" alt="user" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-original-title="Selina" class="rounded-circle" />
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="list-group-item border-0 mb-0 py-3 pe-3 ps-0" data-role="task">
+                            <div class="form-check form-check-inline w-100">
+                              <input type="checkbox" id="inputCall" class="form-check-input info bg-info-subtle" name="inputCheckboxesCall" />
+                              <label for="inputCall" class="form-check-label fw-semibold">
+                                <span>Give Purchase report to</span>
+                                <span class="badge bg-info badge-pill ms-1">Yesterday</span>
+                              </label>
+                            </div>
+                            <ul class="assignedto m-0 ps-4 ms-1 mt-1">
+                              <li class="d-inline-block border-0 me-1">
+                                <img src="assets/images/profile/user-3.jpg" alt="user" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-original-title="Priyanka" class="rounded-circle" />
+                              </li>
+                              <li class="d-inline-block border-0 me-1">
+                                <img src="assets/images/profile/user-4.jpg" alt="user" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-original-title="Selina" class="rounded-circle" />
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="list-group-item border-0 mb-0 py-3 pe-3 ps-0" data-role="task">
+                            <div class="form-check form-check-inline w-100">
+                              <input type="checkbox" id="inputBook" class="form-check-input primary bg-primary-subtle" name="inputCheckboxesBook" />
+                              <label for="inputBook" class="form-check-label fw-semibold">
+                                <span>Book flight for holiday</span>
+                                <span class="badge bg-primary badge-pill ms-1">1
+                                  week</span>
+                              </label>
+                            </div>
+                            <div class="fs-2 ps-3 d-inline-block ms-2">
+                              26 jun 2024
+                            </div>
+                          </li>
+                          <li class="list-group-item border-0 mb-0 py-3 pe-3 ps-0" data-role="task">
+                            <div class="form-check form-check-inline w-100">
+                              <input type="checkbox" id="inputForward" class="form-check-input warning bg-warning-subtle" name="inputCheckboxesForward" />
+                              <label for="inputForward" class="form-check-label fw-semibold">
+                                <span>Forward all tasks</span>
+                                <span class="badge bg-warning badge-pill ms-1">2 weeks</span>
+                              </label>
+                            </div>
+                            <span class="fs-2 ps-3 d-inline-block ms-2">
+                              26 jun 2024
+                            </span>
+                          </li>
+                          <li class="list-group-item border-0 mb-0 pt-3 pe-3 ps-0" data-role="task">
+                            <div class="form-check form-check-inline w-100">
+                              <input type="checkbox" id="inputRecieve" class="form-check-input success bg-success-subtle" name="inputCheckboxesRecieve" />
+                              <label for="inputRecieve" class="form-check-label fw-semibold">
+                                <span>Recieve shipment</span>
+                                <span class="badge bg-success badge-pill ms-1">2
+                                  weeks</span>
+                              </label>
+                            </div>
+                            <ul class="assignedto list-style-none m-0 ps-4 ms-1 mt-1">
+                              <li class="d-inline-block border-0 me-1">
+                                <img src="assets/images/profile/user-5.jpg" alt="user" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-original-title="Steave" class="rounded-circle" />
+                              </li>
+                              <li class="d-inline-block border-0 me-1">
+                                <img src="assets/images/profile/user-2.jpg" alt="user" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-original-title="Jessica" class="rounded-circle" />
+                              </li>
+                              <li class="d-inline-block border-0 me-1">
+                                <img src="assets/images/profile/user-3.jpg" alt="user" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-original-title="Priyanka" class="rounded-circle" />
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card w-100">
+                    <img class="card-img-top blog-img1" src="assets/images/blog/blog-img8.jpg" alt="Card image cap" />
+                    <div class="card-body">
+                      <h4>Featured Hydroflora Pots Garden &amp; Outdoors</h4>
+                      <span class="badge bg-primary badge-pill">Technology</span>
+                      <p class="mb-0 mt-3">
+                        It is a long established fact that a reader will be
+                        distracted by the readable content of a page when
+                        looking at its layout. The point of using.
+                      </p>
+                      <div class="d-flex mt-3 pt-4">
+                        <a href="javascript:void(0)" class="fw-medium">Read more</a>
+                        <div class="ms-auto align-self-center">
+                          <a href="javascript:void(0)" class="px-1 fs-6"><iconify-icon icon="solar:heart-bold"></iconify-icon></a>
+                          <a href="javascript:void(0)" class="px-1 fs-6"><iconify-icon icon="solar:share-line-duotone"></iconify-icon></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+  function handleColorTheme(e) {
+    document.documentElement.setAttribute("data-color-theme", e);
+  }
+</script>
+    <button class="btn btn-primary p-3 rounded-circle d-flex align-items-center justify-content-center customizer-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+      <i class="icon ti ti-settings fs-7"></i>
+    </button>
+
+    <div class="offcanvas customizer offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="d-flex align-items-center justify-content-between p-3 border-bottom">
+        <h4 class="offcanvas-title fw-semibold" id="offcanvasExampleLabel">
+          Settings
+        </h4>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body h-n80" data-simplebar>
+        <h6 class="fw-semibold fs-4 mb-2">Theme</h6>
+
+        <div class="d-flex flex-row gap-3 customizer-box" role="group">
+          <input type="radio" class="btn-check light-layout" name="theme-layout" id="light-layout" autocomplete="off" />
+          <label class="btn p-9 btn-outline-primary" for="light-layout">
+            <i class="icon ti ti-brightness-up fs-7 me-2"></i>Light
+          </label>
+
+          <input type="radio" class="btn-check dark-layout" name="theme-layout" id="dark-layout" autocomplete="off" />
+          <label class="btn p-9 btn-outline-primary" for="dark-layout">
+            <i class="icon ti ti-moon fs-7 me-2"></i>Dark
+          </label>
+        </div>
+
+        <h6 class="mt-5 fw-semibold fs-4 mb-2">Theme Direction</h6>
+        <div class="d-flex flex-row gap-3 customizer-box" role="group">
+          <input type="radio" class="btn-check" name="direction-l" id="ltr-layout" autocomplete="off" />
+          <label class="btn p-9 btn-outline-primary" for="ltr-layout">
+            <i class="icon ti ti-text-direction-ltr fs-7 me-2"></i>LTR
+          </label>
+
+          <input type="radio" class="btn-check" name="direction-l" id="rtl-layout" autocomplete="off" />
+          <label class="btn p-9 btn-outline-primary" for="rtl-layout">
+            <i class="icon ti ti-text-direction-rtl fs-7 me-2"></i>RTL
+          </label>
+        </div>
+
+        <h6 class="mt-5 fw-semibold fs-4 mb-2">Theme Colors</h6>
+
+        <div class="d-flex flex-row flex-wrap gap-3 customizer-box color-pallete" role="group">
+          <input type="radio" class="btn-check" name="color-theme-layout" id="Blue_Theme" autocomplete="off" />
+          <label class="btn p-9 btn-outline-primary d-flex align-items-center justify-content-center" onclick="handleColorTheme('Blue_Theme')" for="Blue_Theme" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="BLUE_THEME">
+            <div class="color-box rounded-circle d-flex align-items-center justify-content-center skin-1">
+              <i class="ti ti-check text-white d-flex icon fs-5"></i>
+            </div>
+          </label>
+
+          <input type="radio" class="btn-check" name="color-theme-layout" id="Aqua_Theme" autocomplete="off" />
+          <label class="btn p-9 btn-outline-primary d-flex align-items-center justify-content-center" onclick="handleColorTheme('Aqua_Theme')" for="Aqua_Theme" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="AQUA_THEME">
+            <div class="color-box rounded-circle d-flex align-items-center justify-content-center skin-2">
+              <i class="ti ti-check text-white d-flex icon fs-5"></i>
+            </div>
+          </label>
+
+          <input type="radio" class="btn-check" name="color-theme-layout" id="Purple_Theme" autocomplete="off" />
+          <label class="btn p-9 btn-outline-primary d-flex align-items-center justify-content-center" onclick="handleColorTheme('Purple_Theme')" for="Purple_Theme" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="PURPLE_THEME">
+            <div class="color-box rounded-circle d-flex align-items-center justify-content-center skin-3">
+              <i class="ti ti-check text-white d-flex icon fs-5"></i>
+            </div>
+          </label>
+
+          <input type="radio" class="btn-check" name="color-theme-layout" id="green-theme-layout" autocomplete="off" />
+          <label class="btn p-9 btn-outline-primary d-flex align-items-center justify-content-center" onclick="handleColorTheme('Green_Theme')" for="green-theme-layout" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="GREEN_THEME">
+            <div class="color-box rounded-circle d-flex align-items-center justify-content-center skin-4">
+              <i class="ti ti-check text-white d-flex icon fs-5"></i>
+            </div>
+          </label>
+
+          <input type="radio" class="btn-check" name="color-theme-layout" id="cyan-theme-layout" autocomplete="off" />
+          <label class="btn p-9 btn-outline-primary d-flex align-items-center justify-content-center" onclick="handleColorTheme('Cyan_Theme')" for="cyan-theme-layout" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="CYAN_THEME">
+            <div class="color-box rounded-circle d-flex align-items-center justify-content-center skin-5">
+              <i class="ti ti-check text-white d-flex icon fs-5"></i>
+            </div>
+          </label>
+
+          <input type="radio" class="btn-check" name="color-theme-layout" id="orange-theme-layout" autocomplete="off" />
+          <label class="btn p-9 btn-outline-primary d-flex align-items-center justify-content-center" onclick="handleColorTheme('Orange_Theme')" for="orange-theme-layout" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="ORANGE_THEME">
+            <div class="color-box rounded-circle d-flex align-items-center justify-content-center skin-6">
+              <i class="ti ti-check text-white d-flex icon fs-5"></i>
+            </div>
+          </label>
+        </div>
+
+        <h6 class="mt-5 fw-semibold fs-4 mb-2">Layout Type</h6>
+        <div class="d-flex flex-row gap-3 customizer-box" role="group">
+          <div>
+            <input type="radio" class="btn-check" name="page-layout" id="vertical-layout" autocomplete="off" />
+            <label class="btn p-9 btn-outline-primary" for="vertical-layout">
+              <i class="icon ti ti-layout-sidebar-right fs-7 me-2"></i>Vertical
+            </label>
+          </div>
+          <div>
+            <input type="radio" class="btn-check" name="page-layout" id="horizontal-layout" autocomplete="off" />
+            <label class="btn p-9 btn-outline-primary" for="horizontal-layout">
+              <i class="icon ti ti-layout-navbar fs-7 me-2"></i>Horizontal
+            </label>
+          </div>
+        </div>
+
+        <h6 class="mt-5 fw-semibold fs-4 mb-2">Container Option</h6>
+
+        <div class="d-flex flex-row gap-3 customizer-box" role="group">
+          <input type="radio" class="btn-check" name="layout" id="boxed-layout" autocomplete="off" />
+          <label class="btn p-9 btn-outline-primary" for="boxed-layout">
+            <i class="icon ti ti-layout-distribute-vertical fs-7 me-2"></i>Boxed
+          </label>
+
+          <input type="radio" class="btn-check" name="layout" id="full-layout" autocomplete="off" />
+          <label class="btn p-9 btn-outline-primary" for="full-layout">
+            <i class="icon ti ti-layout-distribute-horizontal fs-7 me-2"></i>Full
+          </label>
+        </div>
+
+        <h6 class="fw-semibold fs-4 mb-2 mt-5">Sidebar Type</h6>
+        <div class="d-flex flex-row gap-3 customizer-box" role="group">
+          <a href="javascript:void(0)" class="fullsidebar">
+            <input type="radio" class="btn-check" name="sidebar-type" id="full-sidebar" autocomplete="off" />
+            <label class="btn p-9 btn-outline-primary" for="full-sidebar">
+              <i class="icon ti ti-layout-sidebar-right fs-7 me-2"></i>Full
+            </label>
+          </a>
+          <div>
+            <input type="radio" class="btn-check " name="sidebar-type" id="mini-sidebar" autocomplete="off" />
+            <label class="btn p-9 btn-outline-primary" for="mini-sidebar">
+              <i class="icon ti ti-layout-sidebar fs-7 me-2"></i>Collapse
+            </label>
+          </div>
+        </div>
+
+        <h6 class="mt-5 fw-semibold fs-4 mb-2">Card With</h6>
+
+        <div class="d-flex flex-row gap-3 customizer-box" role="group">
+          <input type="radio" class="btn-check" name="card-layout" id="card-with-border" autocomplete="off" />
+          <label class="btn p-9 btn-outline-primary" for="card-with-border">
+            <i class="icon ti ti-border-outer fs-7 me-2"></i>Border
+          </label>
+
+          <input type="radio" class="btn-check" name="card-layout" id="card-without-border" autocomplete="off" />
+          <label class="btn p-9 btn-outline-primary" for="card-without-border">
+            <i class="icon ti ti-border-none fs-7 me-2"></i>Shadow
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="dark-transparent sidebartoggler"></div>
+  <!--  Search Bar -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+      <div class="modal-content rounded-1">
+        <div class="modal-header border-bottom">
+          <input type="search" class="form-control fs-3" placeholder="Search here" id="search" />
+          <a href="javascript:void(0)" data-bs-dismiss="modal" class="lh-1">
+            <i class="ti ti-x fs-5 ms-3"></i>
+          </a>
+        </div>
+        <div class="modal-body message-body" data-simplebar="">
+          <h5 class="mb-0 fs-5 p-1">Quick Page Links</h5>
+          <ul class="list mb-0 py-2">
+            <li class="p-1 mb-1 px-2 rounded bg-hover-light-black">
+              <a href="javascript:void(0)">
+                <span class="d-block">Modern</span>
+                <span class="text-muted d-block">/dashboards/dashboard1</span>
+              </a>
+            </li>
+            <li class="p-1 mb-1 px-2 rounded bg-hover-light-black">
+              <a href="javascript:void(0)">
+                <span class="d-block">Dashboard</span>
+                <span class="text-muted d-block">/dashboards/dashboard2</span>
+              </a>
+            </li>
+            <li class="p-1 mb-1 px-2 rounded bg-hover-light-black">
+              <a href="javascript:void(0)">
+                <span class="d-block">Contacts</span>
+                <span class="text-muted d-block">/apps/contacts</span>
+              </a>
+            </li>
+            <li class="p-1 mb-1 px-2 rounded bg-hover-light-black">
+              <a href="javascript:void(0)">
+                <span class="d-block">Posts</span>
+                <span class="text-muted d-block">/apps/blog/posts</span>
+              </a>
+            </li>
+            <li class="p-1 mb-1 px-2 rounded bg-hover-light-black">
+              <a href="javascript:void(0)">
+                <span class="d-block">Detail</span>
+                <span class="text-muted d-block">/apps/blog/detail/streaming-video-way-before-it-was-cool-go-dark-tomorrow</span>
+              </a>
+            </li>
+            <li class="p-1 mb-1 px-2 rounded bg-hover-light-black">
+              <a href="javascript:void(0)">
+                <span class="d-block">Shop</span>
+                <span class="text-muted d-block">/apps/ecommerce/shop</span>
+              </a>
+            </li>
+            <li class="p-1 mb-1 px-2 rounded bg-hover-light-black">
+              <a href="javascript:void(0)">
+                <span class="d-block">Modern</span>
+                <span class="text-muted d-block">/dashboards/dashboard1</span>
+              </a>
+            </li>
+            <li class="p-1 mb-1 px-2 rounded bg-hover-light-black">
+              <a href="javascript:void(0)">
+                <span class="d-block">Dashboard</span>
+                <span class="text-muted d-block">/dashboards/dashboard2</span>
+              </a>
+            </li>
+            <li class="p-1 mb-1 px-2 rounded bg-hover-light-black">
+              <a href="javascript:void(0)">
+                <span class="d-block">Contacts</span>
+                <span class="text-muted d-block">/apps/contacts</span>
+              </a>
+            </li>
+            <li class="p-1 mb-1 px-2 rounded bg-hover-light-black">
+              <a href="javascript:void(0)">
+                <span class="d-block">Posts</span>
+                <span class="text-muted d-block">/apps/blog/posts</span>
+              </a>
+            </li>
+            <li class="p-1 mb-1 px-2 rounded bg-hover-light-black">
+              <a href="javascript:void(0)">
+                <span class="d-block">Detail</span>
+                <span class="text-muted d-block">/apps/blog/detail/streaming-video-way-before-it-was-cool-go-dark-tomorrow</span>
+              </a>
+            </li>
+            <li class="p-1 mb-1 px-2 rounded bg-hover-light-black">
+              <a href="javascript:void(0)">
+                <span class="d-block">Shop</span>
+                <span class="text-muted d-block">/apps/ecommerce/shop</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <script src="assets/js/vendor.min.js"></script>
+  <!-- Import Js Files -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/simplebar.min.js"></script>
+  <script src="assets/js/app.init.js"></script>
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/app.min.js"></script>
+  <script src="assets/js/sidebarmenu.js"></script>
+  <script src="assets/js/feather.min.js"></script>
+
+  <!-- solar icons -->
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+  <script src="assets/js/apexcharts.min.js"></script>
+  <script src="assets/js/dashboard1.js"></script>
+  <script src="assets/js/inner.js"></script>
+</body>
+
+</html>
